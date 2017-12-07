@@ -1,7 +1,45 @@
 body {
   font-family: arial, sans-serif;
 }
+
+li {
+  display: inline;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
 .center {
   display: block;
   text-align: center;
+  position: relative;
+  top: 192px;
+}
+.function_button {
+  border: none;
+  height: 35px;
+  padding: 10px;
+  padding-bottom: 15px;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-weight: bold;
+}
+.function_button:hover {
+  color: black;
+  border: 1px solid #bbb7b7;
+}
+#main_logo {
+  padding-bottom: 30px;
+  position: relative;
+  left: 150px;
+}
+#search_bar {
+  height: 33px;
+  width: 500px;
+}
+#offeredIn {
+  font-size: 14px;
+  font-family: arial, sans-serif;
 }
