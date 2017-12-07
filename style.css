@@ -4,12 +4,16 @@ body {
 
 li {
   display: inline;
+  margin: 5px;
 }
 .navBar {
     list-style-type: none;
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
     float: right;
+    position: relative;
+    right: 20px;
+    bottom: 15px;
 }
 .center {
   display: block;
@@ -30,10 +34,11 @@ li {
   color: black;
   border: 1px solid #bbb7b7;
 }
+
 #main_logo {
   padding-bottom: 30px;
   position: relative;
-  left: 150px;
+  left: 142px;
 }
 #search_bar {
   height: 33px;
@@ -42,4 +47,12 @@ li {
 #offeredIn {
   font-size: 14px;
   font-family: arial, sans-serif;
+}
+#gmail_acc {
+  position: relative;
+  top: 8px;
+}
+#gmail #images {
+  text-decoration: none;
+  color: black;
 }
