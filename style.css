@@ -5,9 +5,12 @@ body {
 li {
   display: inline;
   margin: 5px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
 }
 .navBar {
     list-style-type: none;
+    font-size: 14px;
     margin-top: 10px;
     padding: 0;
     float: right;
@@ -40,9 +43,22 @@ li {
   position: relative;
   left: 142px;
 }
-#search_bar {
-  height: 33px;
-  width: 500px;
+
+#text input {
+  width: 545px;
+  height: 40px;
+  border: 1px solid #e6e2e2;
+  border-radius: 4px;
+}
+#voice {
+  background: url(Pics/voice_search.png) no-repeat;
+  background-size: 21px 25px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  float: right;
+  bottom: 32px;
+  right: 430px;
 }
 #offeredIn {
   font-size: 14px;
@@ -52,7 +68,7 @@ li {
   position: relative;
   top: 8px;
 }
-#gmail #images {
-  text-decoration: none;
-  color: black;
+#gmail, #images {
+  position: relative;
+  bottom: 5px;
 }
