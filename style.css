@@ -7,6 +7,13 @@ li {
   text-decoration: none;
   font-family: arial, sans-serif;
 }
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  text-decoration: underline;
+}
 .navBar {
     list-style-type: none;
     font-size: 14px;
@@ -16,6 +23,7 @@ li {
     position: relative;
     right: 20px;
     bottom: 15px;
+    text-decoration: none;
 }
 .center {
   display: block;
@@ -92,6 +100,10 @@ li {
   left: 142px;
 }
 
+#text input:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
 #text input {
   width: 545px;
   height: 40px;
@@ -109,9 +121,15 @@ li {
   bottom: 32px;
   right: 430px;
 }
-#offeredIn {
+.offeredIn {
   font-size: 14px;
   font-family: arial, sans-serif;
+}
+#hebrew {
+  color: #1a0dab;
+}
+#arabic {
+  color: #1a0dab;
 }
 #gmail_acc {
   position: relative;
@@ -120,4 +138,5 @@ li {
 #gmail, #images {
   position: relative;
   bottom: 5px;
+  color: black;
 }
